@@ -4,9 +4,12 @@ import data.Person;
 /**
  * Created by student14 on 30/11/2016.
  */
+
+
 public class Main {
     public static void main(String[] args) {
         Person person = new Person();
+
 
         person.setAge(19);
         person.setName("Nir");
@@ -16,6 +19,9 @@ public class Main {
             System.out.print("Adult");
                     else
             System.out.print("Not Adult");
+
+
+        System.out.println(person);
 
 
 
