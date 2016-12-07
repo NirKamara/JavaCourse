@@ -22,7 +22,7 @@ public class GuessGameServiceImpl implements GuessGameService {
         int numOfGuesses = 0;
 
         while (playerGuess != randomInt) {
-            System.out.println("Enter number:");
+            System.out.println("Enter number:"); 
             playerGuess = reader.nextInt();
             numOfGuesses++;
 
